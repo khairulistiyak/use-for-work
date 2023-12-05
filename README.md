@@ -10,12 +10,14 @@ Save the script with a .bat extension (e.g., openAndRun.bat) and double-click it
 1. Clone the repository.
 2. Run the following command to auto run the project:
    ```bash
-   your_run_command_here
+   hello
+   dskfkdf
+   kdfsd
 
 
 Clone the repository:
     ```bash
-   @echo off
+@echo off
 cd /d \project\ema-john-simple-client
 call code . && npm run dev
     ```
