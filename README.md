@@ -7,12 +7,15 @@ Save the script with a .bat extension (e.g., openAndRun.bat) and double-click it
 
 ## Instructions
 
-1. Clone the repository.
-2. Run the following command to auto run the project:
-   ```bash
-   hello
-   dskfkdf
-   kdfsd
+### Auto Run and Open Project
+
+To automatically run and open the project, use the following batch script:
+
+```batch
+@echo off
+cd /d \project\ema-john-simple-client
+call code . && npm run dev
+
 
 
 Clone the repository:
