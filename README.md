@@ -5,12 +5,9 @@
 ------------------
 npm run dev 
 ------------------
-
 @echo off
 cd /d \project\ema-john-simple-client
 call code . && npm run dev
-
-
 ------------------
 nodemon index.js
 ------------------
@@ -23,7 +20,9 @@ call cmd /k nodemon index.js
 
 
 
--------vscode top extensions ----
+------------------
+vscode extensions
+------------------
 
 
 1. Prettier - Code formatter
