@@ -21,8 +21,9 @@ call cmd /k nodemon index.js
 ```
 
 
-## vscode extensions
+## best vscode extensions
 
 1. Prettier - Code formatter
 2. Code Spell Checker
+3. hello
 
