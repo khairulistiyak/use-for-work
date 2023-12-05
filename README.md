@@ -6,21 +6,25 @@ Save the script with a .bat extension (e.g., openAndRun.bat) and double-click it
 
 ```batch
 @echo off
-cd /d \project\ema-john-simple-client
+
+rem Change the directory to the new folder location
+cd /d FOLDER-LOCATION
+
+rem Open Visual Studio Code and run the development server
 call code . && npm run dev
+
 ```
+example : cd /d H:\Project\ema-john-simple-server
 
 ### nodemon
 
 ```batch
 @echo off
-cd /d H:\Project\ema-john-simple-server
+cd /d FOLDER-LOCATION
 call code .
-timeout /nobreak 0
+timeout /nobreak 5
 call cmd /k nodemon index.js
 ```
-
-
 ## best vscode extensions
 
 1. Prettier - Code formatter
