@@ -25,5 +25,8 @@ call cmd /k nodemon index.js
 
 1. Prettier - Code formatter
 2. Code Spell Checker
-3. hello
-
+3. auto rename tag
+4. ESlint
+5. Prettier
+6. Simple react snippets
+7. Material icon  
