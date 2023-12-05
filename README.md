@@ -1,25 +1,23 @@
-********auto run and open project********
+****************
 
 
-# **Auto Run and Open Project**
+# **Automated Development Environment Setup Script.**
 
-This is a description of your project. You can provide details about what it does, how to set it up, and any other relevant information.
+Save the script with a .bat extension (e.g., openAndRun.bat) and double-click it to execute. This script should open Visual Studio Code and start nodemon in a single console window without displaying an empty one.
 
-## Instructions
-
-1. Clone the repository.
-2. Run the following command to auto run the project:
+## npm run dev 
+:
    ```bash
-   your_run_command_here
-
-
-------------------
-npm run dev 
-------------------
-
-@echo off
+  @echo off
 cd /d \project\ema-john-simple-client
 call code . && npm run dev
+
+
+------------------
+
+------------------
+
+
 
 ------------------
 nodemon index.js
