@@ -1,6 +1,18 @@
-*****************************************
 ********auto run and open project********
-*****************************************
+
+
+# **Auto Run and Open Project**
+
+This is a description of your project. You can provide details about what it does, how to set it up, and any other relevant information.
+
+## Instructions
+
+1. Clone the repository.
+2. Run the following command to auto run the project:
+   ```bash
+   your_run_command_here
+
+
 ------------------
 npm run dev 
 ------------------
