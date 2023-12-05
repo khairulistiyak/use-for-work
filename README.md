@@ -5,23 +5,15 @@
 
 Save the script with a .bat extension (e.g., openAndRun.bat) and double-click it to execute. This script should open Visual Studio Code and start nodemon in a single console window without displaying an empty one.
 
-## npm run dev 
+## Instructions
+
+
 2. Run the following command to auto run the project:
    ```bash
- @echo off
+   @echo off
 cd /d \project\ema-john-simple-client
 call code . && npm run dev
 
-
-## nodemon index.js
-2. Run the following command to auto run the project:
-   ```bash
- @echo off
-@echo off
-cd /d H:\Project\ema-john-simple-server
-call code .
-timeout /nobreak 0
-call cmd /k nodemon index.js
 
 
 ------------------
