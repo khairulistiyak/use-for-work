@@ -1,4 +1,4 @@
-# **react and node.js auto run and open project just one click**
+# **Automated Development Environment Setup Script**
 
 Save the script with a .bat extension (e.g., openAndRun.bat) and double-click it to execute. This script should open Visual Studio Code and start nodemon in a single console window without displaying an empty one.
 
